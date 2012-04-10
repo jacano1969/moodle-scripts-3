@@ -1,0 +1,9 @@
+Automation Scripts for Moodle
+
+config.php - contains the central config variables for use in the other scripts
+
+reset.php - resets the databases for the moodle instances listed in config.php. Will eventually restore default course data and users.
+
+recreate.php - coming soon - will rebuild the instances from the GIT source and reinstall them.
+
+update.php - coming soon - will update the source from GIT and run the update and cron scripts for the instances.
