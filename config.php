@@ -4,7 +4,7 @@ $pass = "Moodle#2012";
 
 //					0				1					2				3	4		5	6	  7		8		    9
 //		   "version"   	array("moodledir", 			"wwwroot", 				"datadir", 		       "dbtype", "dbhost",    "dbuser", "dbpass", "dbname",	"local git branch", "remote git branch"),
-$reset     = array("i19" => 	array("/www/repos/istable19/moodle/", 	"http://jason.moodle.local/istable19", 	"/www/repos/istable19/data/",  "mysqli", "localhost", "root",   "moodle", "istable19",  "istable19",        ""),
+$reset     = array(//"i19" => 	array("/www/repos/istable19/moodle/", 	"http://jason.moodle.local/istable19", 	"/www/repos/istable19/data/",  "mysqli", "localhost", "root",   "moodle", "istable19",  "istable19",        ""),
                    "i20" => 	array("/www/repos/istable20/moodle/", 	"http://jason.moodle.local/istable20", 	"/www/repos/istable20/data/",  "mysqli", "localhost", "root",   "moodle", "istable20",  "istable20",        ""),
                    "i21" => 	array("/www/repos/istable21/moodle/", 	"http://jason.moodle.local/istable21", 	"/www/repos/istable21/data/",  "mysqli", "localhost", "root",   "moodle", "istable21",  "istable21",        ""),
                    "i22" => 	array("/www/repos/istable22/moodle/", 	"http://jason.moodle.local/istable22", 	"/www/repos/istable22/data/",  "mysqli", "localhost", "root",   "moodle", "istable22",  "stable22",         ""),
