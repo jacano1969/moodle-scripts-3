@@ -2,7 +2,7 @@ Automation Scripts for Moodle
 
 config.php - contains the central config variables for use in the other scripts
 
-reset.php - resets the databases for the moodle instances listed in config.php. Will eventually restore default course data and users.
+reset.php - resets the databases for the moodle instances listed in config.php and restores the Feature Demo from qa.moodle.org to the site as a course.
 NOTE: this should be run as root.
 
 update.php - updates the source code of the moodle instances from GIT and run the update and cron scripts for the instances.
